@@ -4,7 +4,7 @@ grade = 'Your grade is '
 
 percentage = float(input("What is your percentage score?"))
 
-if percentage >= 90:
+if percentage <= 100 and percentage >=90:
     grade = grade + 'A'
 elif percentage >= 80:
     grade = grade + 'B'
